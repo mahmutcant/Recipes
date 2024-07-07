@@ -1,12 +1,10 @@
-function App() {
+import TopNavBar from "./layout/TopNavBar";
 
+function App() {
+  
   return (
-    <>
-      <div className="h-full">
-        <span className="flex items-center justify-center">recipe</span>
-      </div>
-    </>
-  )
+    <TopNavBar/>
+  );
 }
 
-export default App
+export default App;
