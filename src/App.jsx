@@ -37,10 +37,9 @@ function App() {
                   <span className="">Subscribe</span>
                 </button>
                 <div className="w-full my-3 p-4 font-semibold">
-                  <span className="flex items-center justify-center">We won't send you spam.</span>
+                  <span className="flex items-center justify-center">{"We won't send you spam."}</span>
                   <span className="flex items-center justify-center">Unsubscribe at any time.</span>
                 </div>
-                
             </div>
           </div>
         </div>
